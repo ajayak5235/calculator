@@ -54,7 +54,7 @@ export default function LoanCalculator() {
       {monthlyPayment > 0 && (
         <div className="result">
           <h3>Monthly Payment:</h3>
-          <p>${monthlyPayment.toFixed(2)}</p>
+          <p>{monthlyPayment.toFixed(2)}</p>
         </div>
       )}
     </div>
