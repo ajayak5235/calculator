@@ -1,12 +1,12 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import LoanCalculator from "./components/LoanCalculator";
-import TaxCalculator from "./components/TaxCalculator";
-import AgeCalculator from "./components/AgeCalculator";
-import CalorieCalculator from "./components/CalorieCalculator";
-import BMICalculator from "./components/BMICalculator";
-import AdsenseCalculator from "./components/AdsenseCalculator";
+import LoanCalculator from "./components/loanCalculator";
+import TaxCalculator from "./components/Taxcalculator";
+import AgeCalculator from "./components/Agecalculator";
+import CalorieCalculator from "./components/Caloriescalculator";
+import BMICalculator from "./components/Bmicalculator";
+import AdsenseCalculator from "./components/AdsencCalculator";
 import Footer from "./components/Footer";
 
 const App = () => {
